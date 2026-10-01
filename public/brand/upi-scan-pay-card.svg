@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="580" viewBox="0 0 500 580">
+  <defs>
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="115%" filterUnits="userSpaceOnUse">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#000" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+  <!-- Background vibrant blue matching user card -->
+  <rect width="500" height="580" rx="24" fill="#0074C9"/>
+  
+  <!-- Outer red accent line as in original screenshot border -->
+  <rect x="496" y="0" width="4" height="580" fill="#EF4444" opacity="0.8"/>
+
+  <!-- Main White Card Container -->
+  <rect x="35" y="30" width="430" height="520" rx="40" fill="#FFFFFF" filter="url(#shadow)"/>
+
+  <!-- Top Title: SCAN & PAY -->
+  <text x="250" y="85" fill="#0F172A" font-family="'Barlow', -apple-system, system-ui, sans-serif" font-size="26" font-weight="900" text-anchor="middle" letter-spacing="2">SCAN &amp; PAY</text>
+
+  <!-- Embedded QR Code -->
+  <g transform="translate(85, 110) scale(7.5)">
+    <path fill="#ffffff" d="M0 0h35v35H0z"/>
+<path stroke="#000000" d="M1 1.5h7m2 0h2m1 0h1m2 0h1m2 0h2m1 0h2m1 0h1m1 0h7M1 2.5h1m5 0h1m8 0h2m1 0h3m1 0h1m3 0h1m5 0h1M1 3.5h1m1 0h3m1 0h1m1 0h3m3 0h2m3 0h1m2 0h1m3 0h1m1 0h3m1 0h1M1 4.5h1m1 0h3m1 0h1m1 0h1m3 0h1m5 0h1m4 0h2m1 0h1m1 0h3m1 0h1M1 5.5h1m1 0h3m1 0h1m1 0h1m1 0h2m2 0h4m2 0h2m1 0h2m1 0h1m1 0h3m1 0h1M1 6.5h1m5 0h1m1 0h1m1 0h2m1 0h1m3 0h3m1 0h1m1 0h2m1 0h1m5 0h1M1 7.5h7m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h7M9 8.5h4m1 0h2m1 0h1m2 0h3m1 0h1M1 9.5h1m1 0h5m2 0h4m5 0h2m3 0h1m2 0h5M4 10.5h3m1 0h1m2 0h2m1 0h2m1 0h2m5 0h2m1 0h1m3 0h2M2 11.5h1m2 0h1m1 0h2m3 0h1m1 0h2m1 0h2m3 0h1m5 0h1m2 0h2M5 12.5h1m2 0h5m1 0h1m1 0h1m1 0h3m1 0h2m1 0h1m2 0h1m1 0h2M1 13.5h1m4 0h3m2 0h1m3 0h3m2 0h2m3 0h5M2 14.5h1m1 0h3m3 0h1m3 0h1m1 0h1m2 0h1m2 0h1m1 0h1m3 0h6M2 15.5h1m2 0h3m3 0h1m2 0h6m1 0h1m3 0h1m4 0h1m1 0h1M1 16.5h2m2 0h2m2 0h3m4 0h1m5 0h2m2 0h1m3 0h3M1 17.5h3m2 0h3m2 0h1m3 0h3m5 0h4m2 0h2m1 0h1M1 18.5h1m2 0h2m2 0h3m2 0h1m3 0h1m1 0h1m1 0h1m1 0h2m1 0h2M1 19.5h1m1 0h2m2 0h2m1 0h1m1 0h1m1 0h4m1 0h1m2 0h1m2 0h1m3 0h3m1 0h1M1 20.5h4m3 0h1m4 0h3m7 0h1m1 0h1m3 0h1m1 0h1m1 0h1M2 21.5h2m3 0h1m1 0h2m3 0h1m1 0h1m2 0h1m2 0h2m1 0h1m1 0h2m1 0h1m2 0h1M1 22.5h1m2 0h1m4 0h2m3 0h1m1 0h3m2 0h2m5 0h1m2 0h3M1 23.5h1m2 0h4m6 0h1m3 0h3m3 0h2m1 0h4m1 0h1M1 24.5h1m1 0h1m2 0h1m5 0h1m1 0h2m1 0h1m2 0h2m1 0h1m2 0h1m2 0h1m1 0h2M1 25.5h1m2 0h1m2 0h1m1 0h1m1 0h2m1 0h1m3 0h1m1 0h1m1 0h2m1 0h6m1 0h2M9 26.5h4m3 0h1m1 0h1m1 0h1m3 0h2m3 0h1m2 0h2M1 27.5h7m2 0h1m3 0h2m1 0h2m1 0h1m3 0h2m1 0h1m1 0h1m3 0h1M1 28.5h1m5 0h1m1 0h2m3 0h2m2 0h2m2 0h1m1 0h2m3 0h1m1 0h2M1 29.5h1m1 0h3m1 0h1m1 0h1m4 0h1m1 0h2m4 0h2m1 0h5m3 0h1M1 30.5h1m1 0h3m1 0h1m1 0h2m4 0h2m2 0h1m4 0h1m3 0h3M1 31.5h1m1 0h3m1 0h1m1 0h2m1 0h1m2 0h3m1 0h1m2 0h3m1 0h3m1 0h2M1 32.5h1m5 0h1m4 0h2m2 0h1m6 0h1m5 0h3M1 33.5h7m1 0h1m4 0h1m1 0h4m2 0h1m1 0h1m4 0h1m1 0h2"/>
+  </g>
+
+  <!-- Bottom UPI ID Text -->
+  <text x="250" y="495" fill="#0F172A" font-family="'JetBrains Mono', 'Barlow', monospace" font-size="20" font-weight="700" text-anchor="middle" letter-spacing="0.5">UPI ID : 88382201@ubin</text>
+  
+  <text x="250" y="525" fill="#64748B" font-family="system-ui, sans-serif" font-size="12" font-weight="600" text-anchor="middle">Department of CSE · IDEAFORGE ' 26</text>
+</svg>

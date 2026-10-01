@@ -1,0 +1,8 @@
+{
+  "name": "Remix  IDEAFORGE\u002726",
+  "description": "Official registration portal for IDEATHON 2026 organized by the Department of Computer Science and Engineering. The best way to predict the future is to create it.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
