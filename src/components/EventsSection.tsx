@@ -59,6 +59,13 @@ export const EventsSection: React.FC<EventsSectionProps> = ({
     return 'Solo (1 Member)';
   };
 
+  const getDisplayFee = (evt: EventItem) => {
+    if (evt.id === 'ideathon') {
+      return '₹250 / Head';
+    }
+    return '₹250 / Head (Combined)';
+  };
+
   return (
     <section id="events" className="relative py-8 sm:py-16 border-t-2 border-[#E2E8F0]/15 scroll-mt-20 bg-[#090414] overflow-hidden">
       {/* Background glow accent */}
@@ -144,39 +151,39 @@ export const EventsSection: React.FC<EventsSectionProps> = ({
                   </p>
 
                   {/* Necessary Details Only (Team Size, Timing, Fee) */}
-                  <div className="space-y-1.5 font-mono text-[11px] text-[#E2E8F0] bg-[#0C061A] p-2.5 rounded-lg border border-[#E2E8F0]/20 mb-3">
-                    <div className="flex items-center justify-between border-b border-white/5 pb-1">
-                      <span className="text-[#94A3B8] flex items-center gap-1.5">
+                  <div className="space-y-1.5 font-mono text-xs sm:text-[13px] text-[#F8FAFC] bg-[#0C061A] p-3 rounded-lg border border-[#E2E8F0]/25 mb-3">
+                    <div className="flex items-center justify-between border-b border-white/10 pb-1.5">
+                      <span className="text-[#E2E8F0] font-bold flex items-center gap-1.5">
                         <Users className="w-3.5 h-3.5 text-[#A78BFA]" /> Team Size:
                       </span>
-                      <span className="font-bold text-white">
+                      <span className="font-extrabold text-white">
                         {getDisplayTeamSize(evt)}
                       </span>
                     </div>
 
-                    <div className="flex items-center justify-between border-b border-white/5 pb-1">
-                      <span className="text-[#94A3B8] flex items-center gap-1.5">
+                    <div className="flex items-center justify-between border-b border-white/10 pb-1.5">
+                      <span className="text-[#E2E8F0] font-bold flex items-center gap-1.5">
                         <Clock className="w-3.5 h-3.5 text-[#A78BFA]" /> Timing:
                       </span>
-                      <span className="font-bold text-[#A78BFA]">
+                      <span className="font-black text-[#A78BFA]">
                         {getDisplayTiming(evt)}
                       </span>
                     </div>
 
                     <div className="flex items-center justify-between">
-                      <span className="text-[#94A3B8] flex items-center gap-1.5">
+                      <span className="text-[#E2E8F0] font-bold flex items-center gap-1.5">
                         <Trophy className="w-3.5 h-3.5 text-[#A78BFA]" /> Fee:
                       </span>
-                      <span className="font-bold text-white">
-                        ₹250 / Head
+                      <span className="font-extrabold text-white">
+                        {getDisplayFee(evt)}
                       </span>
                     </div>
                   </div>
                 </div>
 
                 {/* Footer Action */}
-                <div className="pt-2 border-t border-white/10 flex items-center justify-between text-xs font-mono text-[#CBD5E1] group-hover:text-white">
-                  <span className="text-[11px] text-[#A78BFA] font-bold flex items-center gap-1">
+                <div className="pt-2.5 border-t border-white/10 flex items-center justify-between text-xs sm:text-sm font-mono text-[#F8FAFC] group-hover:text-white">
+                  <span className="text-xs sm:text-sm text-[#A78BFA] font-black flex items-center gap-1">
                     Click for full details
                   </span>
                   <div className="p-1 rounded bg-[#0C061A] border border-[#E2E8F0]/30 group-hover:border-[#E2E8F0] group-hover:bg-[#6C63FF] transition-colors">
@@ -195,19 +202,19 @@ export const EventsSection: React.FC<EventsSectionProps> = ({
             onClick={() => setSelectedEventModal(null)}
           >
             <div 
-              className="bg-[#160B30] border-2 sm:border-3 border-[#E2E8F0] rounded-xl sm:rounded-2xl max-w-lg w-full p-3.5 sm:p-7 shadow-brutal relative max-h-[92vh] overflow-y-auto"
+              className="bg-[#160B30] border-2 sm:border-3 border-[#E2E8F0] rounded-xl sm:rounded-2xl max-w-lg w-full p-4 sm:p-7 shadow-brutal relative max-h-[92vh] overflow-y-auto"
               onClick={(e) => e.stopPropagation()}
             >
               {/* Modal Header */}
               <div className="flex items-start justify-between mb-4 border-b border-white/10 pb-3">
                 <div>
-                  <span className="font-mono text-[10px] font-bold text-[#A78BFA] tracking-wider uppercase bg-[#0C061A] px-2 py-0.5 rounded border border-[#E2E8F0]/30">
+                  <span className="font-mono text-xs font-black text-[#A78BFA] tracking-wider uppercase bg-[#0C061A] px-2.5 py-0.5 rounded border border-[#E2E8F0]/30">
                     {selectedEventModal.category} EVENT
                   </span>
                   <h3 className="font-display text-2xl sm:text-3xl font-black text-white mt-1.5 uppercase">
                     {selectedEventModal.name}
                   </h3>
-                  <p className="font-heading text-xs sm:text-sm text-[#A78BFA] font-bold uppercase mt-0.5">
+                  <p className="font-heading text-xs sm:text-sm text-[#A78BFA] font-black uppercase mt-0.5">
                     {selectedEventModal.tagline}
                   </p>
                 </div>
@@ -217,7 +224,7 @@ export const EventsSection: React.FC<EventsSectionProps> = ({
                   className="text-white hover:text-[#A78BFA] p-1.5 rounded-lg bg-[#0C061A] border border-[#E2E8F0]/30 cursor-pointer"
                   aria-label="Close modal"
                 >
-                  <X className="w-4 h-4" />
+                  <X className="w-5 h-5" />
                 </button>
               </div>
 
@@ -225,44 +232,48 @@ export const EventsSection: React.FC<EventsSectionProps> = ({
               <div className="space-y-4 mb-5">
                 {/* Description */}
                 <div>
-                  <h4 className="font-heading text-xs font-black tracking-widest text-[#A78BFA] uppercase mb-1">
+                  <h4 className="font-heading text-xs sm:text-sm font-black tracking-widest text-[#A78BFA] uppercase mb-1">
                     OVERVIEW
                   </h4>
-                  <p className="font-body text-xs sm:text-sm text-[#CBD5E1] leading-relaxed">
+                  <p className="font-body text-xs sm:text-base text-[#F8FAFC] font-medium leading-relaxed">
                     {selectedEventModal.description}
                   </p>
                 </div>
 
                 {/* Key Specs Table */}
-                <div className="bg-[#0C061A] border border-[#E2E8F0]/25 p-3 rounded-xl space-y-2 font-mono text-xs text-white">
-                  <div className="flex justify-between border-b border-white/10 pb-1">
-                    <span className="text-[#94A3B8]">Team Size:</span>
-                    <span className="font-bold text-[#A78BFA]">{selectedEventModal.teamSizeLabel}</span>
+                <div className="bg-[#0C061A] border border-[#E2E8F0]/25 p-3.5 rounded-xl space-y-2 font-mono text-xs sm:text-sm text-white">
+                  <div className="flex justify-between border-b border-white/10 pb-1.5">
+                    <span className="text-[#E2E8F0] font-bold">Team Size:</span>
+                    <span className="font-black text-[#A78BFA]">{selectedEventModal.teamSizeLabel}</span>
                   </div>
-                  <div className="flex justify-between border-b border-white/10 pb-1">
-                    <span className="text-[#94A3B8]">Timing:</span>
-                    <span className="font-bold">{selectedEventModal.timing}</span>
+                  <div className="flex justify-between border-b border-white/10 pb-1.5">
+                    <span className="text-[#E2E8F0] font-bold">Timing:</span>
+                    <span className="font-black">{selectedEventModal.timing}</span>
                   </div>
-                  <div className="flex justify-between border-b border-white/10 pb-1">
-                    <span className="text-[#94A3B8]">Registration Fee:</span>
-                    <span className="font-bold">₹250 / Head</span>
+                  <div className="flex justify-between border-b border-white/10 pb-1.5">
+                    <span className="text-[#E2E8F0] font-bold">Registration Fee:</span>
+                    <span className="font-black text-[#A78BFA]">
+                      {selectedEventModal.id === 'ideathon' 
+                        ? '₹250 / Head (Team Fee: ₹250 × members)' 
+                        : '₹250 / Head (Combined Fee — covers all 4 other events)'}
+                    </span>
                   </div>
                   <div className="flex justify-between">
-                    <span className="text-[#94A3B8]">Awards:</span>
-                    <span className="font-bold text-white">Cash Prizes & Merit Certificates</span>
+                    <span className="text-[#E2E8F0] font-bold">Awards:</span>
+                    <span className="font-black text-white">Cash Prizes & Merit Certificates</span>
                   </div>
                 </div>
 
                 {/* Rules & Guidelines */}
                 <div>
-                  <h4 className="font-heading text-xs font-black tracking-widest text-[#A78BFA] uppercase mb-2">
+                  <h4 className="font-heading text-xs sm:text-sm font-black tracking-widest text-[#A78BFA] uppercase mb-2">
                     OFFICIAL RULES & GUIDELINES
                   </h4>
-                  <ul className="space-y-1.5 font-body text-xs text-[#CBD5E1]">
+                  <ul className="space-y-2 font-body text-xs sm:text-sm text-[#F8FAFC] font-medium">
                     {selectedEventModal.rules.map((rule, idx) => (
                       <li key={idx} className="flex items-start gap-2">
-                        <CheckCircle2 className="w-3.5 h-3.5 text-[#A78BFA] shrink-0 mt-0.5" />
-                        <span>{rule}</span>
+                        <CheckCircle2 className="w-4 h-4 text-[#A78BFA] shrink-0 mt-0.5" />
+                        <span className="leading-snug">{rule}</span>
                       </li>
                     ))}
                   </ul>

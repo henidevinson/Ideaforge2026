@@ -5,17 +5,17 @@ export const MarqueeBanner: React.FC = () => {
   const items = [
     { text: "IDEAFORGE ' 26", icon: Sparkles },
     { text: "REFRESHMENTS WILL BE PROVIDED", icon: Coffee },
+    { text: "ALL OTHER EVENTS COMBINED FEE: ₹250 / HEAD", icon: Sparkles },
     { text: "EVENT DATE: 14/10/2026 (WEDNESDAY)", icon: Calendar },
     { text: '“THE BEST WAY TO PREDICT THE FUTURE IS TO CREATE IT.”', icon: Quote },
     { text: 'DEPARTMENT OF CSE', icon: Terminal },
     { text: 'TECHNICAL & NON-TECHNICAL EVENTS', icon: Cpu },
-    { text: 'IDEATHON: 8-HOUR CONTINUOUS SPRINT', icon: Code },
-    { text: 'REFRESHMENTS & TEA/SNACKS INCLUDED', icon: Coffee },
+    { text: 'IDEATHON: 8-HOUR CONTINUOUS SPRINT (₹250/HEAD)', icon: Code },
     { text: '8 SPECIALIZED DOMAINS · PROBLEMS ON THE SPOT', icon: Zap },
     { text: 'PROMPT ENGINEERING · BUSINESS PITCH', icon: Terminal },
     { text: 'VIDEOGRAPHY · E-GAMES (FREE FIRE)', icon: Shield },
-    { text: 'OTHER EVENTS: SOLO REGISTER · ACCESS ALL 4 EVENTS (₹250)', icon: Code },
-    { text: 'COMMON REGISTRATION FEE: ₹250 / HEAD', icon: Code },
+    { text: 'ALL OTHER EVENTS COMBINED: ₹250 / HEAD (ACCESS ALL 4 EVENTS)', icon: Code },
+    { text: 'REFRESHMENTS WILL BE PROVIDED TO ALL PARTICIPANTS', icon: Coffee },
     { text: 'CASH PRIZES & MERIT CERTIFICATES', icon: Sparkles },
   ];
 
@@ -31,7 +31,7 @@ export const MarqueeBanner: React.FC = () => {
           return (
             <div key={idx} className="flex items-center gap-3.5 shrink-0">
               <Icon className="w-5 h-5 text-[#A78BFA]" />
-              <span className="font-heading text-lg sm:text-2xl font-black tracking-widest text-white uppercase">
+              <span className={`${item.text.includes("IDEAFORGE ' 26") ? 'font-ideaforge-old tracking-wider' : 'font-heading tracking-widest'} text-lg sm:text-2xl font-black text-white uppercase`}>
                 {item.text}
               </span>
               <span className="w-2 h-2 rounded-full bg-[#E2E8F0] ml-3" />

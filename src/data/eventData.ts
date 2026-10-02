@@ -14,6 +14,7 @@ export const EVENT_DETAILS = {
   ideathonDuration: '8 Hours Continuous Sprint',
   ideathonTime: '9:00 AM – 5:00 PM',
   feePerParticipant: 250,
+  otherEventsCombinedFee: 250,
   domainCount: 8,
   hod: 'Mrs. S. Renugadevi',
   facultyCoordinators: [
@@ -63,17 +64,17 @@ export const ALL_EVENTS: EventItem[] = [
     timingNote: 'Time will be shared on the spot by event coordinators',
     minMembers: 1,
     maxMembers: 1,
-    teamSizeLabel: 'Solo Registration (₹250)',
+    teamSizeLabel: 'Solo Registration (Combined Fee: ₹250)',
     description: 'Put your prompt craft to the test! Formulate optimal system prompts, few-shot examples, and chain-of-thought instructions to solve complex algorithmic, logical, and creative AI challenges.',
     highlights: [
-      'Solo participant registration (can select all 4 other events)',
+      'Solo participant registration (combined fee ₹250 covers all 4 other events)',
       'Hands-on generative AI and LLM benchmarking',
       'Time schedule announced on the spot at Abinantham Hall',
       'Cash prizes & certificates for top AI prompt architects'
     ],
     rules: [
       'Solo registration: Each participant registers individually.',
-      'Registration Fee: ₹250 common pass fee (covers any/all 4 other events).',
+      'Registration Fee: ₹250 combined fee (covers any or all 4 other events).',
       'Exact challenge rounds and timing will be shared on the spot.',
       'Evaluation based on output accuracy, latency, and token efficiency.'
     ],
@@ -88,17 +89,17 @@ export const ALL_EVENTS: EventItem[] = [
     timingNote: 'Time will be shared on the spot by event coordinators',
     minMembers: 1,
     maxMembers: 1,
-    teamSizeLabel: 'Solo Registration (₹250)',
+    teamSizeLabel: 'Solo Registration (Combined Fee: ₹250)',
     description: 'Pitch your breakthrough tech product or venture concept to an expert jury. Present your market analysis, business model canvas, financial viability, and go-to-market strategy.',
     highlights: [
-      'Solo participant registration (can select all 4 other events)',
+      'Solo participant registration (combined fee ₹250 covers all 4 other events)',
       'Venture evaluation by academic and industry experts',
       'Time schedule announced on the spot at Abinantham Hall',
       'Exciting cash prizes and certificates for winning pitches'
     ],
     rules: [
       'Solo registration: Each participant registers individually.',
-      'Registration Fee: ₹250 common pass fee (covers any/all 4 other events).',
+      'Registration Fee: ₹250 combined fee (covers any or all 4 other events).',
       'Exact session timings will be shared on the spot.',
       'Presentation deck should cover problem, market, revenue model, and scalability.'
     ],
@@ -115,17 +116,17 @@ export const ALL_EVENTS: EventItem[] = [
     timingNote: 'Time will be shared on the spot by event coordinators',
     minMembers: 1,
     maxMembers: 1,
-    teamSizeLabel: 'Solo Registration (₹250)',
+    teamSizeLabel: 'Solo Registration (Combined Fee: ₹250)',
     description: 'Showcase your camera eye, visual framing, color grading, and editing magic. Capture compelling cinematic snippets, reels, or themed short visual narratives within the campus.',
     highlights: [
-      'Solo participant registration (can select all 4 other events)',
+      'Solo participant registration (combined fee ₹250 covers all 4 other events)',
       'Campus theme / prompt announced on the spot',
       'Time schedule announced on the spot at Abinantham Hall',
       'Cash prizes & certificates awarded to best visual creators'
     ],
     rules: [
       'Solo registration: Each participant registers individually.',
-      'Registration Fee: ₹250 common pass fee (covers any/all 4 other events).',
+      'Registration Fee: ₹250 combined fee (covers any or all 4 other events).',
       'Exact theme, guidelines, and submission time will be shared on the spot.',
       'Original cinematography; basic editing tools and mobile/DSLR allowed.'
     ],
@@ -140,17 +141,17 @@ export const ALL_EVENTS: EventItem[] = [
     timingNote: 'Time will be shared on the spot by event coordinators',
     minMembers: 1,
     maxMembers: 1,
-    teamSizeLabel: 'Solo Registration (₹250)',
+    teamSizeLabel: 'Solo Registration (Combined Fee: ₹250)',
     description: 'Drop onto the virtual battleground for intense survival, rapid tactical firefights, and clutch combat in Garena Free Fire. Prove your supremacy and claim the championship trophy.',
     highlights: [
-      'Solo participant registration (can select all 4 other events)',
+      'Solo participant registration (combined fee ₹250 covers all 4 other events)',
       'Official custom tournament room lobbies',
       'Time schedule announced on the spot at Abinantham Hall',
       'Cash prizes and certificates for top podium finishers'
     ],
     rules: [
       'Solo registration: Each participant registers individually.',
-      'Registration Fee: ₹250 common pass fee (covers any/all 4 other events).',
+      'Registration Fee: ₹250 combined fee (covers any or all 4 other events).',
       'Custom room ID and match start time will be shared on the spot.',
       'Only mobile devices permitted for gaming (strictly no emulators, hacks, or scripts).'
     ],
@@ -167,7 +168,7 @@ export const HOW_IT_WORKS_STEPS = [
   {
     step: '02',
     title: 'SOLO OR TEAM REGISTRATION',
-    description: 'Other events: Solo register for ₹250 and select any or all 4 events. Ideathon: Register 1 to 4 members at ₹250 per participant.'
+    description: 'Other events: Solo register for ₹250 combined fee and select any or all 4 events. Ideathon: Register 1 to 4 members at ₹250 per participant.'
   },
   {
     step: '03',
@@ -194,12 +195,12 @@ export const HOW_IT_WORKS_STEPS = [
 export const CONFIRMED_RULES = [
   "Event name: IDEAFORGE ' 26 organized by the Department of Computer Science & Engineering.",
   'Official Venue: Abinantham Hall, Campus Auditorium.',
-  'Common Registration Fee: Strictly ₹250 per participant across all registrations.',
+  'Registration Fee: Flat ₹250 per head across all events (Ideathon: ₹250/head · All other events combined: ₹250/head).',
   'Ideathon Sprint Track: Exclusive 8-hour continuous hack-sprint (9:00 AM – 5:00 PM). Teams of 1 to 4 members. Problem statements are given live on the spot across 8 domains.',
   'Ideathon Exclusivity: Participants registered for the Ideathon cannot participate in remaining events due to the intensive 8-hour continuous sprint.',
-  'Other Events Solo Registration: Solo registration allows each participant to select any or all 4 other events (Prompt Engineering, Business Pitch, Videography, E-Games) for a single flat fee of ₹250. Can register from any device.',
+  'Other Events Solo Registration: Solo registration allows each participant to select any or all 4 other events (Prompt Engineering, Business Pitch, Videography, E-Games) for a single combined fee of ₹250 per head. Can register from any device.',
   'Multi-Event Participation: Since timings for remaining events are shared on the spot at Abinantham Hall without clashes, participants can easily compete in all selected events.',
-  'Refreshments will be provided to all registered participants (Coffee / Tea & Snacks).',
+  'Refreshments will be provided to all registered participants.',
   'Certificates and existing cash prizes will be provided to participants and top winners in all events.'
 ];
 
@@ -210,7 +211,7 @@ export const ANNOUNCEMENT_PENDING_ITEMS = [
   },
   {
     label: 'Registration Fee',
-    status: '₹250 / Head (Common)'
+    status: '₹250 / Head (Flat Common Fee)'
   },
   {
     label: 'Ideathon Time',
@@ -233,7 +234,7 @@ export const ANNOUNCEMENT_PENDING_ITEMS = [
 export const FAQS: FaqItem[] = [
   {
     question: "What is the registration fee?",
-    answer: "The registration fee is a flat common ₹250 per head! For Other Events, a solo register of ₹250 covers all selected events (you can choose all 4!). For the Ideathon, teams pay ₹250 per member (1 Member = ₹250, 2 Members = ₹500, 3 Members = ₹750, 4 Members = ₹1,000)."
+    answer: "The registration fee is a flat ₹250 per head! For all other events combined (Prompt Engineering, Business Pitch, Videography, and E-Games), the fee is ₹250 per head, allowing you to access any or all of these events! For the Ideathon continuous sprint, the fee is ₹250 per head (1 Member = ₹250, 2 Members = ₹500, 3 Members = ₹750, 4 Members = ₹1,000)."
   },
   {
     question: "Will refreshments be provided?",
@@ -241,7 +242,7 @@ export const FAQS: FaqItem[] = [
   },
   {
     question: "Can I select all 4 other events in a single registration?",
-    answer: "Yes! In the Other Events track, you solo register for yourself from any device, and you can select any or all 4 events (Prompt Engineering, Business Pitch, Videography, and E-Games - Free Fire) for the same single ₹250 pass!"
+    answer: "Yes! In the Other Events track, you solo register for yourself from any device, and you can select any or all 4 events (Prompt Engineering, Business Pitch, Videography, and E-Games - Free Fire) for the same single combined fee of ₹250 per head!"
   },
   {
     question: "Can an Ideathon participant participate in the other events?",
@@ -253,7 +254,7 @@ export const FAQS: FaqItem[] = [
   },
   {
     question: "What are the two registration tracks available?",
-    answer: "Registration is divided into: 1) Ideathon Track (Dedicated 8-hour continuous sprint for teams of 1-4 with 8 domains, problem statement on the spot at 9:00 AM), and 2) Other Events Track (Solo registration for ₹250 where you can select any or all 4 other events)."
+    answer: "Registration is divided into: 1) Ideathon Track (Dedicated 8-hour continuous sprint for teams of 1-4 with 8 domains, problem statement on the spot at 9:00 AM, ₹250/head), and 2) Other Events Track (Solo registration for a combined fee of ₹250 where you can select any or all 4 other events)."
   },
   {
     question: 'Where will the event be held?',

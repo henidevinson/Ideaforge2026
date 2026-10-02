@@ -29,7 +29,7 @@ export const Footer: React.FC = () => {
                   }}
                 />
               </div>
-              <span className="font-display text-base sm:text-xl font-black tracking-tight text-white">
+              <span className="font-ideaforge-old text-base sm:text-xl font-black tracking-tight text-white">
                 IDEAFORGE <span className="text-[#A78BFA]">' 26</span>
               </span>
             </div>

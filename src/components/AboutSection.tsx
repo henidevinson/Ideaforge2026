@@ -38,7 +38,7 @@ export const AboutSection: React.FC = () => {
             </div>
             
             <h2 className="font-display text-2xl min-[360px]:text-3xl sm:text-5xl lg:text-6xl font-black text-white tracking-tight uppercase leading-tight sm:leading-none break-words">
-              IDEAFORGE ' 26 BY <span className="text-[#A78BFA]">DEPARTMENT OF CSE</span>
+              <span className="font-ideaforge-old">IDEAFORGE ' 26</span> BY <span className="text-[#A78BFA]">DEPARTMENT OF CSE</span>
             </h2>
 
             <p className="font-body text-xs sm:text-lg lg:text-xl text-white font-semibold leading-relaxed">

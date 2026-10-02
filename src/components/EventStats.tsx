@@ -19,7 +19,7 @@ export const EventStats: React.FC = () => {
       icon: IndianRupee,
       title: 'REGISTRATION',
       subtitle: '₹250 / Head (Common)',
-      description: 'Single common fee per participant across all registrations'
+      description: 'Flat ₹250 per participant across all registrations'
     },
     {
       icon: Trophy,

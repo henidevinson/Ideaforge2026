@@ -93,7 +93,7 @@ export const Navbar: React.FC<NavbarProps> = ({ onRegisterClick }) => {
                 }}
               />
             </div>
-            <span className="font-display text-sm min-[360px]:text-base sm:text-2xl font-black tracking-tight text-white group-hover:text-[#A78BFA] transition-colors leading-none uppercase truncate">
+            <span className="font-ideaforge-old text-sm min-[360px]:text-base sm:text-2xl font-black tracking-tight text-white group-hover:text-[#A78BFA] transition-colors leading-none uppercase truncate">
               IDEAFORGE <span className="text-[#A78BFA]">' 26</span>
             </span>
           </a>

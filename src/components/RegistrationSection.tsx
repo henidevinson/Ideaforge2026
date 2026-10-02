@@ -51,7 +51,7 @@ export const RegistrationSection: React.FC = () => {
           </div>
 
           <h2 className="font-display text-3xl sm:text-5xl lg:text-6xl font-black uppercase tracking-tight text-white leading-tight">
-            REGISTER FOR <span className="text-[#A78BFA]">IDEAFORGE ' 26</span>
+            REGISTER FOR <span className="font-ideaforge-old text-[#A78BFA]">IDEAFORGE ' 26</span>
           </h2>
 
           <p className="text-xs sm:text-base text-[#CBD5E1] max-w-xl mx-auto leading-relaxed">
@@ -88,10 +88,10 @@ export const RegistrationSection: React.FC = () => {
             <div className="flex flex-wrap items-center justify-center sm:justify-end gap-2">
               <div className="inline-flex items-center justify-center gap-2 bg-[#0C061A] border-2 border-emerald-500/50 px-3.5 py-1.5 rounded-xl font-mono text-xs font-bold text-emerald-300">
                 <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse" />
-                <span>₹250 / Head · Common Fee</span>
+                <span>₹250 / Head · Flat Common Fee</span>
               </div>
-              <div className="inline-flex items-center justify-center gap-1.5 bg-[#0C061A] border-2 border-amber-400/50 px-3 py-1.5 rounded-xl font-mono text-xs font-bold text-amber-300">
-                <Coffee className="w-3.5 h-3.5 text-amber-400" />
+              <div className="inline-flex items-center justify-center gap-1.5 bg-[#0C061A] border-2 border-emerald-400/50 px-3 py-1.5 rounded-xl font-mono text-xs font-bold text-emerald-300">
+                <Coffee className="w-3.5 h-3.5 text-emerald-400" />
                 <span>Refreshments will be provided</span>
               </div>
             </div>

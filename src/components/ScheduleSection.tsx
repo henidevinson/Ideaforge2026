@@ -136,7 +136,7 @@ export const ScheduleSection: React.FC = () => {
                 </div>
                 <div className="flex flex-col min-[380px]:flex-row min-[380px]:items-center justify-between gap-0.5 min-[380px]:gap-2 border-b border-white/10 pb-1.5 sm:pb-2">
                   <span className="text-[#94A3B8]">Registration Fee:</span>
-                  <span className="text-white font-black text-left min-[380px]:text-right">₹250 / Head (Common)</span>
+                  <span className="text-white font-black text-left min-[380px]:text-right">₹250 / Head (Common Fee)</span>
                 </div>
                 <div className="flex flex-col min-[380px]:flex-row min-[380px]:items-center justify-between gap-0.5 min-[380px]:gap-2">
                   <span className="text-[#94A3B8]">Awards:</span>
