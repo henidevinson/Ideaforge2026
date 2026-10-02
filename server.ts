@@ -1,4 +1,5 @@
-import express, { Request, Response } from 'express';
+import express from 'express';
+import type { Request, Response } from 'express';
 import path from 'path';
 import fs from 'fs';
 import { fileURLToPath } from 'url';
@@ -29,17 +30,18 @@ app.get('/api/health', (req: Request, res: Response) => {
 // VITE / STATIC SERVING
 // ----------------------------------------------------
 async function startServer() {
-  if (process.env.NODE_ENV !== 'production' && !fs.existsSync(path.resolve(__dirname, 'dist'))) {
-    // Development mode with Vite middleware
+  const distPath = path.resolve(__dirname, 'dist');
+  
+  if (process.env.NODE_ENV !== 'production' && !fs.existsSync(distPath)) {
+    // Development mode with Vite middleware (hmr: false to prevent WebSocket errors)
     const { createServer: createViteServer } = await import('vite');
     const vite = await createViteServer({
-      server: { middlewareMode: true },
+      server: { middlewareMode: true, hmr: false },
       appType: 'spa',
     });
     app.use(vite.middlewares);
   } else {
     // Production mode: serve built assets
-    const distPath = path.resolve(__dirname, 'dist');
     app.use(express.static(distPath));
     app.get('*', (req: Request, res: Response) => {
       res.sendFile(path.resolve(distPath, 'index.html'));

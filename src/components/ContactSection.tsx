@@ -6,14 +6,14 @@ export const ContactSection: React.FC = () => {
     {
       name: 'H. Heni Devinson',
       role: 'STUDENT COORDINATOR',
-      qualification: 'B.E Cse',
+      qualification: 'BE CSE',
       phone: '7708269340',
       phoneDisplay: '7708269340'
     },
     {
       name: 'M. Harish',
       role: 'STUDENT COORDINATOR',
-      qualification: 'Student -B.E Cse',
+      qualification: 'BE CSE',
       phone: '9894469878',
       phoneDisplay: '9894469878'
     }
@@ -37,7 +37,7 @@ export const ContactSection: React.FC = () => {
           </p>
         </div>
 
-        {/* Help Desk Contact Cards (Only Student Coordinators, Abinantham Hall Card Removed) */}
+        {/* Help Desk Contact Cards */}
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-3.5 sm:gap-6 max-w-2xl mx-auto">
           {helpDeskContacts.map((contact, idx) => (
             <div
@@ -51,21 +51,23 @@ export const ContactSection: React.FC = () => {
                 <span className="text-[10px] sm:text-[11px] font-mono font-bold text-[#A78BFA] uppercase block mb-1 tracking-wider">
                   {contact.role}
                 </span>
-                <h3 className="font-display text-base sm:text-xl font-black text-white mb-0.5">
+                <h3 className="font-display text-base sm:text-xl font-black text-white mb-1">
                   {contact.name}
                 </h3>
-                <p className="text-xs font-mono text-[#CBD5E1] mb-5">
+                <p className="text-xs sm:text-sm font-mono font-black uppercase text-white tracking-wider mb-5">
                   {contact.qualification}
                 </p>
               </div>
-              
-              <a
-                href={`tel:${contact.phone}`}
-                className="inline-flex items-center justify-center gap-2 w-full py-2.5 px-4 rounded-lg bg-[#0C061A] hover:bg-[#6C63FF] border-2 border-[#E2E8F0]/40 hover:border-[#E2E8F0] font-mono text-xs sm:text-sm font-bold text-white transition-all shadow-brutal-sm cursor-pointer group-hover:text-white"
-              >
-                <Phone className="w-3.5 h-3.5 text-emerald-400" />
-                <span>{contact.phoneDisplay}</span>
-              </a>
+
+              <div className="pt-2">
+                <a
+                  href={`tel:${contact.phone}`}
+                  className="w-full py-2.5 sm:py-3 px-4 rounded-xl bg-[#6C63FF] hover:bg-[#554BF0] border-2 border-[#E2E8F0] font-heading font-black text-xs sm:text-sm tracking-wider text-white shadow-brutal-sm flex items-center justify-center gap-2 group-hover:scale-[1.02] transition-all active:scale-98"
+                >
+                  <Phone className="w-3.5 h-3.5 sm:w-4 sm:h-4 text-white" />
+                  <span>CALL {contact.phoneDisplay}</span>
+                </a>
+              </div>
             </div>
           ))}
         </div>

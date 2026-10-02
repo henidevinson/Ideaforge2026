@@ -12,7 +12,8 @@ import {
   Check, 
   ArrowRight,
   ShieldCheck,
-  Quote
+  Quote,
+  Coffee
 } from 'lucide-react';
 import { GOOGLE_FORM_URL } from '../config/constants';
 import { useRegistrationCountdown, DISPLAY_DEADLINE_DATE, DISPLAY_DEADLINE_TIME } from '../services/deadlineService';
@@ -84,9 +85,15 @@ export const RegistrationSection: React.FC = () => {
               </h3>
             </div>
 
-            <div className="inline-flex items-center justify-center gap-2 bg-[#0C061A] border-2 border-emerald-500/50 px-3.5 py-1.5 rounded-xl font-mono text-xs font-bold text-emerald-300">
-              <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse" />
-              <span>₹250 / Head · Common Fee</span>
+            <div className="flex flex-wrap items-center justify-center sm:justify-end gap-2">
+              <div className="inline-flex items-center justify-center gap-2 bg-[#0C061A] border-2 border-emerald-500/50 px-3.5 py-1.5 rounded-xl font-mono text-xs font-bold text-emerald-300">
+                <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse" />
+                <span>₹250 / Head · Common Fee</span>
+              </div>
+              <div className="inline-flex items-center justify-center gap-1.5 bg-[#0C061A] border-2 border-amber-400/50 px-3 py-1.5 rounded-xl font-mono text-xs font-bold text-amber-300">
+                <Coffee className="w-3.5 h-3.5 text-amber-400" />
+                <span>Refreshments will be provided</span>
+              </div>
             </div>
           </div>
 
@@ -141,7 +148,7 @@ export const RegistrationSection: React.FC = () => {
                 <span className="w-5 h-5 rounded-full bg-[#6C63FF] text-white flex items-center justify-center font-bold text-xs shrink-0 mt-0.5">
                   3
                 </span>
-                <span>Complete the registration payment (₹250/head) using the UPI ID provided inside the form and submit!</span>
+                <span>Complete the registration payment (₹250/head) using the UPI ID inside the form and submit! <strong>Refreshments will be provided</strong> to all registered participants.</span>
               </div>
             </div>
           </div>

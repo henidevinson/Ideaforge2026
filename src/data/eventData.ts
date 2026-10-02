@@ -16,13 +16,13 @@ export const EVENT_DETAILS = {
   feePerParticipant: 250,
   domainCount: 8,
   hod: 'Mrs. S. Renugadevi',
-  staffCoordinators: [
-    { name: 'V. Gunasundhari (AP/CSE)', role: 'Staff Coordinator', designation: 'Assistant Professor, Department of CSE' },
-    { name: 'R. Sabareeswari (AP/CSE)', role: 'Staff Coordinator', designation: 'Assistant Professor, Department of CSE' }
+  facultyCoordinators: [
+    { name: 'V. Gunasundhari (AP/CSE)', role: 'Faculty Coordinator', designation: 'Assistant Professor, Department of CSE' },
+    { name: 'R. Sabareeswari (AP/CSE)', role: 'Faculty Coordinator', designation: 'Assistant Professor, Department of CSE' }
   ],
   studentCoordinators: [
-    { name: 'H. Heni Devinson', role: 'Student Coordinator', designation: 'B.E CSE', phone: '7708269340' },
-    { name: 'M. Harish', role: 'Student Coordinator', designation: 'Student - B.E CSE', phone: '9894469878' }
+    { name: 'H. Heni Devinson', role: 'Student Coordinator', designation: 'BE CSE', phone: '7708269340' },
+    { name: 'M. Harish', role: 'Student Coordinator', designation: 'BE CSE', phone: '9894469878' }
   ],
   prizesNotice: 'Merit Certificates & Cash Prizes will be awarded to top performers in every event!'
 };
@@ -199,6 +199,7 @@ export const CONFIRMED_RULES = [
   'Ideathon Exclusivity: Participants registered for the Ideathon cannot participate in remaining events due to the intensive 8-hour continuous sprint.',
   'Other Events Solo Registration: Solo registration allows each participant to select any or all 4 other events (Prompt Engineering, Business Pitch, Videography, E-Games) for a single flat fee of ₹250. Can register from any device.',
   'Multi-Event Participation: Since timings for remaining events are shared on the spot at Abinantham Hall without clashes, participants can easily compete in all selected events.',
+  'Refreshments will be provided to all registered participants (Coffee / Tea & Snacks).',
   'Certificates and existing cash prizes will be provided to participants and top winners in all events.'
 ];
 
@@ -220,6 +221,10 @@ export const ANNOUNCEMENT_PENDING_ITEMS = [
     status: 'Shared On The Spot'
   },
   {
+    label: 'Refreshments',
+    status: 'Provided To All Participants'
+  },
+  {
     label: 'Prizes & Rewards',
     status: 'Certificates & Cash Prizes'
   }
@@ -229,6 +234,10 @@ export const FAQS: FaqItem[] = [
   {
     question: "What is the registration fee?",
     answer: "The registration fee is a flat common ₹250 per head! For Other Events, a solo register of ₹250 covers all selected events (you can choose all 4!). For the Ideathon, teams pay ₹250 per member (1 Member = ₹250, 2 Members = ₹500, 3 Members = ₹750, 4 Members = ₹1,000)."
+  },
+  {
+    question: "Will refreshments be provided?",
+    answer: "Yes! Refreshments will be provided to all registered participants during the symposium."
   },
   {
     question: "Can I select all 4 other events in a single registration?",
@@ -260,7 +269,7 @@ export const FAQS: FaqItem[] = [
   },
   {
     question: 'Who are the coordinators and help desk contacts?',
-    answer: 'CSE HOD: Mrs. S. Renugadevi. Staff Coordinators: V. Gunasundhari (AP/CSE) and R. Sabareeswari (AP/CSE). Student Help Desk Coordinators: H. Heni Devinson (7708269340) and M. Harish (9894469878).'
+    answer: 'CSE HOD: Mrs. S. Renugadevi. Faculty Coordinators: V. Gunasundhari (AP/CSE) and R. Sabareeswari (AP/CSE). Student Help Desk Coordinators: H. Heni Devinson (BE CSE - 7708269340) and M. Harish (BE CSE - 9894469878).'
   }
 ];
 
@@ -268,10 +277,10 @@ export const CONTACT_INFO = {
   department: 'Department of Computer Science and Engineering',
   eventName: "IDEAFORGE ' 26",
   hod: 'Mrs. S. Renugadevi (HOD / CSE)',
-  staffCoordinators: 'V. Gunasundhari (AP/CSE) & R. Sabareeswari (AP/CSE)',
+  facultyCoordinators: 'V. Gunasundhari (AP/CSE) & R. Sabareeswari (AP/CSE)',
   studentDesk: [
-    { name: 'H. Heni Devinson', role: 'B.E CSE', phone: '7708269340' },
-    { name: 'M. Harish', role: 'Student - B.E CSE', phone: '9894469878' }
+    { name: 'H. Heni Devinson', role: 'BE CSE', phone: '7708269340' },
+    { name: 'M. Harish', role: 'BE CSE', phone: '9894469878' }
   ],
   venue: 'Abinantham Hall, Sasurie College of Engineering',
 };

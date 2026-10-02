@@ -1,5 +1,5 @@
 import React from 'react';
-import { ArrowRight, Sparkles, Clock, IndianRupee, Layers, Quote, Calendar, ExternalLink } from 'lucide-react';
+import { ArrowRight, Sparkles, Clock, IndianRupee, Layers, Quote, Calendar, ExternalLink, Coffee } from 'lucide-react';
 import { RegistrationCountdown } from './RegistrationCountdown';
 import { GOOGLE_FORM_URL } from '../config/constants';
 
@@ -75,6 +75,11 @@ export const Hero: React.FC<HeroProps> = ({
           <div className="flex items-center gap-1.5 sm:gap-2 bg-[#0C061A] border-2 border-[#E2E8F0]/30 px-2.5 py-1 sm:px-3.5 sm:py-1.5 rounded-lg shadow-brutal-sm">
             <IndianRupee className="w-3 h-3 sm:w-4 sm:h-4 text-[#A78BFA] shrink-0" />
             <span>₹250 / Head (Common Fee)</span>
+          </div>
+          {/* Refreshments Provided Badge */}
+          <div className="flex items-center gap-1.5 sm:gap-2 bg-[#160B30] border-2 border-emerald-400/60 px-2.5 py-1 sm:px-3.5 sm:py-1.5 rounded-lg shadow-brutal-sm text-emerald-300">
+            <Coffee className="w-3 h-3 sm:w-4 sm:h-4 text-emerald-400 shrink-0" />
+            <span>Refreshments will be provided</span>
           </div>
         </div>
 

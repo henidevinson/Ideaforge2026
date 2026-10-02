@@ -1,21 +1,21 @@
 import React from 'react';
-import { Sparkles, Terminal, Code, Cpu, Shield, Zap, Quote, Clock, Calendar } from 'lucide-react';
+import { Sparkles, Terminal, Code, Cpu, Shield, Zap, Quote, Clock, Calendar, Coffee } from 'lucide-react';
 
 export const MarqueeBanner: React.FC = () => {
   const items = [
     { text: "IDEAFORGE ' 26", icon: Sparkles },
+    { text: "REFRESHMENTS WILL BE PROVIDED", icon: Coffee },
     { text: "EVENT DATE: 14/10/2026 (WEDNESDAY)", icon: Calendar },
     { text: '“THE BEST WAY TO PREDICT THE FUTURE IS TO CREATE IT.”', icon: Quote },
     { text: 'DEPARTMENT OF CSE', icon: Terminal },
     { text: 'TECHNICAL & NON-TECHNICAL EVENTS', icon: Cpu },
     { text: 'IDEATHON: 8-HOUR CONTINUOUS SPRINT', icon: Code },
+    { text: 'REFRESHMENTS & TEA/SNACKS INCLUDED', icon: Coffee },
     { text: '8 SPECIALIZED DOMAINS · PROBLEMS ON THE SPOT', icon: Zap },
     { text: 'PROMPT ENGINEERING · BUSINESS PITCH', icon: Terminal },
     { text: 'VIDEOGRAPHY · E-GAMES (FREE FIRE)', icon: Shield },
     { text: 'OTHER EVENTS: SOLO REGISTER · ACCESS ALL 4 EVENTS (₹250)', icon: Code },
-    { text: 'TIME SHARED ON THE SPOT FOR REMAINING EVENTS', icon: Clock },
     { text: 'COMMON REGISTRATION FEE: ₹250 / HEAD', icon: Code },
-    { text: 'IDEATHON TRACK (8-HR CONTINUOUS SPRINT · 1-4 MEMBERS)', icon: Sparkles },
     { text: 'CASH PRIZES & MERIT CERTIFICATES', icon: Sparkles },
   ];
 
