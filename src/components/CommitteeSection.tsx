@@ -34,13 +34,7 @@ export const CommitteeSection: React.FC = () => {
   const organizingCommittee = [
     {
       role: 'FACULTY COORDINATOR',
-      name: 'V.Gunasundhari',
-      designation: 'AP/CSE',
-      badge: 'FACULTY'
-    },
-    {
-      role: 'FACULTY COORDINATOR',
-      name: 'R.Sabareeswari',
+      name: 'Mrs. V. Gunasundhari',
       designation: 'AP/CSE',
       badge: 'FACULTY'
     },

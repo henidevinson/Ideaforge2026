@@ -18,8 +18,7 @@ export const EVENT_DETAILS = {
   domainCount: 8,
   hod: 'Mrs. S. Renugadevi',
   facultyCoordinators: [
-    { name: 'V. Gunasundhari (AP/CSE)', role: 'Faculty Coordinator', designation: 'Assistant Professor, Department of CSE' },
-    { name: 'R. Sabareeswari (AP/CSE)', role: 'Faculty Coordinator', designation: 'Assistant Professor, Department of CSE' }
+    { name: 'Mrs. V. Gunasundhari (AP/CSE)', role: 'Faculty Coordinator', designation: 'Assistant Professor, Department of CSE' }
   ],
   studentCoordinators: [
     { name: 'H. Heni Devinson', role: 'Student Coordinator', designation: 'BE CSE', phone: '7708269340' },
@@ -270,7 +269,7 @@ export const FAQS: FaqItem[] = [
   },
   {
     question: 'Who are the coordinators and help desk contacts?',
-    answer: 'CSE HOD: Mrs. S. Renugadevi. Faculty Coordinators: V. Gunasundhari (AP/CSE) and R. Sabareeswari (AP/CSE). Student Help Desk Coordinators: H. Heni Devinson (BE CSE - 7708269340) and M. Harish (BE CSE - 9894469878).'
+    answer: 'CSE HOD: Mrs. S. Renugadevi. Faculty Coordinator: Mrs. V. Gunasundhari (AP/CSE). Student Help Desk Coordinators: H. Heni Devinson (BE CSE - 7708269340) and M. Harish (BE CSE - 9894469878).'
   }
 ];
 
@@ -278,7 +277,7 @@ export const CONTACT_INFO = {
   department: 'Department of Computer Science and Engineering',
   eventName: "IDEAFORGE ' 26",
   hod: 'Mrs. S. Renugadevi (HOD / CSE)',
-  facultyCoordinators: 'V. Gunasundhari (AP/CSE) & R. Sabareeswari (AP/CSE)',
+  facultyCoordinators: 'Mrs. V. Gunasundhari (AP/CSE)',
   studentDesk: [
     { name: 'H. Heni Devinson', role: 'BE CSE', phone: '7708269340' },
     { name: 'M. Harish', role: 'BE CSE', phone: '9894469878' }
