@@ -6,7 +6,7 @@ export const EventStats: React.FC = () => {
     {
       icon: MapPin,
       title: 'VENUE',
-      subtitle: 'Abinantham Hall',
+      subtitle: 'Abinandham Hall',
       description: 'Campus Auditorium, Department of Computer Science & Engineering'
     },
     {

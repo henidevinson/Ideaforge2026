@@ -6,7 +6,7 @@ export const EVENT_DETAILS = {
   tagline: '“The best way to predict the future is to create it.”',
   quote: '“The best way to predict the future is to create it.”',
   organizer: 'Department of Computer Science and Engineering',
-  venue: 'Abinantham Hall',
+  venue: 'Abinandham Hall',
   eventDate: '14/10/2026',
   eventDateFormatted: 'October 14, 2026',
   eventDateWithDay: 'October 14, 2026 (Wednesday)',
@@ -68,7 +68,7 @@ export const ALL_EVENTS: EventItem[] = [
     highlights: [
       'Solo participant registration (combined fee ₹250 covers all 4 other events)',
       'Hands-on generative AI and LLM benchmarking',
-      'Time schedule announced on the spot at Abinantham Hall',
+      'Time schedule announced on the spot at Abinandham Hall',
       'Cash prizes & certificates for top AI prompt architects'
     ],
     rules: [
@@ -93,7 +93,7 @@ export const ALL_EVENTS: EventItem[] = [
     highlights: [
       'Solo participant registration (combined fee ₹250 covers all 4 other events)',
       'Venture evaluation by academic and industry experts',
-      'Time schedule announced on the spot at Abinantham Hall',
+      'Time schedule announced on the spot at Abinandham Hall',
       'Exciting cash prizes and certificates for winning pitches'
     ],
     rules: [
@@ -120,7 +120,7 @@ export const ALL_EVENTS: EventItem[] = [
     highlights: [
       'Solo participant registration (combined fee ₹250 covers all 4 other events)',
       'Campus theme / prompt announced on the spot',
-      'Time schedule announced on the spot at Abinantham Hall',
+      'Time schedule announced on the spot at Abinandham Hall',
       'Cash prizes & certificates awarded to best visual creators'
     ],
     rules: [
@@ -145,7 +145,7 @@ export const ALL_EVENTS: EventItem[] = [
     highlights: [
       'Solo participant registration (combined fee ₹250 covers all 4 other events)',
       'Official custom tournament room lobbies',
-      'Time schedule announced on the spot at Abinantham Hall',
+      'Time schedule announced on the spot at Abinandham Hall',
       'Cash prizes and certificates for top podium finishers'
     ],
     rules: [
@@ -176,8 +176,8 @@ export const HOW_IT_WORKS_STEPS = [
   },
   {
     step: '04',
-    title: 'REPORT AT ABINANTHAM HALL',
-    description: 'Arrive at Abinantham Hall with your digital entry pass. Ideathon starts at 9:00 AM; remaining event timings are shared on the spot.'
+    title: 'REPORT AT ABINANDHAM HALL',
+    description: 'Arrive at Abinandham Hall with your digital entry pass. Ideathon starts at 9:00 AM; remaining event timings are shared on the spot.'
   },
   {
     step: '05',
@@ -193,12 +193,12 @@ export const HOW_IT_WORKS_STEPS = [
 
 export const CONFIRMED_RULES = [
   "Event name: IDEAFORGE ' 26 organized by the Department of Computer Science & Engineering.",
-  'Official Venue: Abinantham Hall, Campus Auditorium.',
+  'Official Venue: Abinandham Hall, Campus Auditorium.',
   'Registration Fee: Flat ₹250 per head across all events (Ideathon: ₹250/head · All other events combined: ₹250/head).',
   'Ideathon Sprint Track: Exclusive 8-hour continuous hack-sprint (9:00 AM – 5:00 PM). Teams of 1 to 4 members. Problem statements are given live on the spot across 8 domains.',
   'Ideathon Exclusivity: Participants registered for the Ideathon cannot participate in remaining events due to the intensive 8-hour continuous sprint.',
   'Other Events Solo Registration: Solo registration allows each participant to select any or all 4 other events (Prompt Engineering, Business Pitch, Videography, E-Games) for a single combined fee of ₹250 per head. Can register from any device.',
-  'Multi-Event Participation: Since timings for remaining events are shared on the spot at Abinantham Hall without clashes, participants can easily compete in all selected events.',
+  'Multi-Event Participation: Since timings for remaining events are shared on the spot at Abinandham Hall without clashes, participants can easily compete in all selected events.',
   'Refreshments will be provided to all registered participants.',
   'Certificates and existing cash prizes will be provided to participants and top winners in all events.'
 ];
@@ -206,7 +206,7 @@ export const CONFIRMED_RULES = [
 export const ANNOUNCEMENT_PENDING_ITEMS = [
   {
     label: 'Venue',
-    status: 'Abinantham Hall'
+    status: 'Abinandham Hall'
   },
   {
     label: 'Registration Fee',
@@ -257,7 +257,7 @@ export const FAQS: FaqItem[] = [
   },
   {
     question: 'Where will the event be held?',
-    answer: 'The event will be held at Abinantham Hall, Campus Auditorium. All reporting and gate pass verifications will commence at the reception desk.'
+    answer: 'The event will be held at Abinandham Hall, Campus Auditorium. All reporting and gate pass verifications will commence at the reception desk.'
   },
   {
     question: 'How do problem statements work in the Ideathon?',
@@ -282,6 +282,6 @@ export const CONTACT_INFO = {
     { name: 'H. Heni Devinson', role: 'BE CSE', phone: '7708269340' },
     { name: 'M. Harish', role: 'BE CSE', phone: '9894469878' }
   ],
-  venue: 'Abinantham Hall, Sasurie College of Engineering',
+  venue: 'Abinandham Hall, Sasurie College of Engineering',
 };
 

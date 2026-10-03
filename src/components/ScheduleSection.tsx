@@ -6,7 +6,7 @@ export const ScheduleSection: React.FC = () => {
     {
       time: '08:30 AM – 09:00 AM',
       title: 'Reporting & Gate Pass Verification',
-      desc: 'Teams arrive at Abinantham Hall, verify printed/digital team pass at the reception desk, and collect official badge kit.',
+      desc: 'Teams arrive at Abinandham Hall, verify printed/digital team pass at the reception desk, and collect official badge kit.',
       icon: CheckCircle,
       tag: 'CHECK-IN'
     },
@@ -56,7 +56,7 @@ export const ScheduleSection: React.FC = () => {
             EVENT <span className="text-[#A78BFA]">TIMING</span>
           </h2>
           <p className="mt-1.5 sm:mt-3 font-body text-xs sm:text-lg text-[#E2E8F0] max-w-2xl font-medium">
-            Official schedule for <strong className="text-white font-black">IDEAFORGE ' 26</strong> on <strong className="text-[#A78BFA] font-black">14/10/2026 (Wednesday)</strong>. Hosted at <strong className="text-white">Abinantham Hall</strong>, Campus Auditorium.
+            Official schedule for <strong className="text-white font-black">IDEAFORGE ' 26</strong> on <strong className="text-[#A78BFA] font-black">14/10/2026 (Wednesday)</strong>. Hosted at <strong className="text-white">Abinandham Hall</strong>, Campus Auditorium.
           </p>
         </div>
 
@@ -94,7 +94,7 @@ export const ScheduleSection: React.FC = () => {
                 </div>
                 <div className="flex items-center gap-2 sm:gap-3 font-heading text-xs sm:text-base font-bold uppercase text-white bg-[#0C061A] border-2 border-[#E2E8F0]/30 p-2 sm:p-3 rounded-lg sm:rounded-xl shadow-brutal-sm">
                   <MapPin className="w-4 h-4 sm:w-5 sm:h-5 text-[#A78BFA] shrink-0" />
-                  <span>Abinantham Hall, Auditorium</span>
+                  <span>Abinandham Hall, Auditorium</span>
                 </div>
               </div>
 
@@ -104,7 +104,7 @@ export const ScheduleSection: React.FC = () => {
                   <Clock className="w-3.5 h-3.5 text-[#A78BFA]" /> Remaining Events Timing:
                 </div>
                 <p>
-                  Time will be shared on the spot for Prompt Engineering, Business Pitch, Videography, and E-Games (Free Fire) at the Abinantham Hall coordination desk.
+                  Time will be shared on the spot for Prompt Engineering, Business Pitch, Videography, and E-Games (Free Fire) at the Abinandham Hall coordination desk.
                 </p>
               </div>
             </div>
@@ -132,7 +132,7 @@ export const ScheduleSection: React.FC = () => {
                 </div>
                 <div className="flex flex-col min-[380px]:flex-row min-[380px]:items-center justify-between gap-0.5 min-[380px]:gap-2 border-b border-white/10 pb-1.5 sm:pb-2">
                   <span className="text-[#94A3B8]">Venue:</span>
-                  <span className="text-white font-black text-left min-[380px]:text-right">Abinantham Hall</span>
+                  <span className="text-white font-black text-left min-[380px]:text-right">Abinandham Hall</span>
                 </div>
                 <div className="flex flex-col min-[380px]:flex-row min-[380px]:items-center justify-between gap-0.5 min-[380px]:gap-2 border-b border-white/10 pb-1.5 sm:pb-2">
                   <span className="text-[#94A3B8]">Registration Fee:</span>

@@ -73,7 +73,7 @@ export const DomainsSection: React.FC<DomainsSectionProps> = ({ onSelectDomainFo
           <div className="mt-3 inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[#160B30] border border-[#A78BFA]/40 font-mono text-xs text-[#A78BFA]">
             <span>⚡ Problem Statements: Given on the spot at 9:00 AM</span>
             <span>·</span>
-            <span>Venue: Abinantham Hall</span>
+            <span>Venue: Abinandham Hall</span>
           </div>
 
           {/* Quick Domain Search Bar */}

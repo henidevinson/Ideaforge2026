@@ -66,7 +66,7 @@ export const Hero: React.FC<HeroProps> = ({
           </div>
           <div className="flex items-center gap-1.5 sm:gap-2 bg-[#0C061A] border-2 border-[#E2E8F0]/30 px-3 py-1.5 sm:px-3.5 sm:py-1.5 rounded-lg shadow-brutal-sm">
             <span className="w-2 h-2 sm:w-2.5 sm:h-2.5 rounded-full bg-[#A78BFA] animate-pulse shrink-0" />
-            <span>VENUE: ABINANTHAM HALL</span>
+            <span>VENUE: ABINANDHAM HALL</span>
           </div>
           <div className="flex items-center gap-1.5 sm:gap-2 bg-[#0C061A] border-2 border-[#E2E8F0]/30 px-3 py-1.5 sm:px-3.5 sm:py-1.5 rounded-lg shadow-brutal-sm">
             <Clock className="w-3.5 h-3.5 sm:w-4 sm:h-4 text-[#A78BFA] shrink-0" />

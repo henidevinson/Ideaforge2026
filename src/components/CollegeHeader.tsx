@@ -75,7 +75,7 @@ export const CollegeHeader: React.FC = () => {
                 ) : (
                   <img
                     src="/brand/founder-kandasami-circle.png"
-                    alt="Sri A. M. Kandaswami"
+                    alt="Shri A.M.Kandaswami - Chairman Sasurie Group of Institutions"
                     referrerPolicy="no-referrer"
                     className="h-full w-full rounded-full object-cover"
                     onError={() => setFounderError(true)}
@@ -84,10 +84,10 @@ export const CollegeHeader: React.FC = () => {
               </div>
               <div className="flex flex-col text-left min-w-0 flex-1">
                 <span className="font-display text-[10px] xs:text-xs font-black tracking-tight text-white leading-tight truncate">
-                  Sri A. M. KANDASWAMI
+                  SHRI A.M.KANDASWAMI
                 </span>
                 <span className="text-[7px] xs:text-[8px] font-mono text-[#CBD5E1] font-bold uppercase truncate">
-                  Founder & Chairman
+                  Chairman, Sasurie Group of Institutions
                 </span>
                 <a
                   href="https://sasurieengg.com"
@@ -190,7 +190,7 @@ export const CollegeHeader: React.FC = () => {
                 ) : (
                   <img
                     src="/brand/founder-kandasami-circle.png"
-                    alt="Sri A. M. Kandaswami - Founder & Chairman"
+                    alt="Shri A.M.Kandaswami - Chairman Sasurie Group of Institutions"
                     referrerPolicy="no-referrer"
                     className="h-full w-full rounded-full object-cover transition-transform duration-300 group-hover:scale-110"
                     onError={() => setFounderError(true)}
@@ -199,10 +199,10 @@ export const CollegeHeader: React.FC = () => {
               </div>
               <div className="flex flex-col text-left">
                 <span className="font-display text-sm font-black tracking-tight text-white leading-tight">
-                  Sri A. M. KANDASWAMI
+                  SHRI A.M.KANDASWAMI
                 </span>
                 <span className="text-[10px] font-mono text-[#E2E8F0] font-black uppercase tracking-wider">
-                  FOUNDER & CHAIRMAN
+                  CHAIRMAN, SASURIE GROUP OF INSTITUTIONS
                 </span>
                 <a
                   href="https://sasurieengg.com"

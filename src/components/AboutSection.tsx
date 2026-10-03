@@ -42,7 +42,7 @@ export const AboutSection: React.FC = () => {
             </h2>
 
             <p className="font-body text-xs sm:text-lg lg:text-xl text-white font-semibold leading-relaxed">
-              <strong>IDEAFORGE ' 26</strong> is the flagship inter-collegiate IDEAFORGE uniting Technical and Non-Technical arenas under one roof at <strong>Abinantham Hall</strong>.
+              <strong>IDEAFORGE ' 26</strong> is the flagship inter-collegiate IDEAFORGE uniting Technical and Non-Technical arenas under one roof at <strong>Abinandham Hall</strong>.
             </p>
 
             <p className="font-body text-xs sm:text-base text-[#CBD5E1] leading-relaxed font-normal">
@@ -55,7 +55,7 @@ export const AboutSection: React.FC = () => {
                 'Event Date: 14/10/2026 (Wednesday)',
                 'Ideathon: 8 Continuous Sprint Hours',
                 'Technical & Non-Technical Sections',
-                'Venue: Abinantham Hall, Campus Auditorium',
+                'Venue: Abinandham Hall, Campus Auditorium',
                 'Merit Certificates & Cash Prizes Provided'
               ].map((item, idx) => (
                 <div key={idx} className="flex items-center gap-2 sm:gap-3 font-heading text-xs sm:text-base font-bold uppercase text-white bg-[#160B30] border border-[#E2E8F0]/30 p-2 sm:p-3 rounded-lg sm:rounded-xl shadow-brutal-sm">

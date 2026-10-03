@@ -34,7 +34,7 @@ export const Footer: React.FC = () => {
               </span>
             </div>
             <p className="text-xs text-[#CBD5E1]">
-              Department of Computer Science and Engineering · Venue: Abinantham Hall
+              Department of Computer Science and Engineering · Venue: Abinandham Hall
             </p>
           </div>
 
@@ -70,7 +70,7 @@ export const Footer: React.FC = () => {
 
         {/* Bottom copyright line */}
         <div className="pt-5 sm:pt-8 flex flex-col sm:flex-row items-center justify-between gap-3 sm:gap-4 text-xs text-[#94A3B8] text-center sm:text-left">
-          <p>© 2026 IDEAFORGE ' 26 · Department of Computer Science & Engineering · Abinantham Hall. All rights reserved.</p>
+          <p>© 2026 IDEAFORGE ' 26 · Department of Computer Science & Engineering · Abinandham Hall. All rights reserved.</p>
           <div className="flex flex-col sm:flex-row items-center gap-1.5 sm:gap-4 text-[10px] sm:text-[11px] font-mono text-[#CBD5E1]">
             <span>“THE BEST WAY TO PREDICT THE FUTURE IS TO CREATE IT.”</span>
             <span className="hidden sm:inline">·</span>

@@ -34,7 +34,7 @@ export const GuidelinesSection: React.FC = () => {
                 Confirmed Event Guidelines
               </h3>
               <p className="font-body text-[11px] sm:text-sm text-[#CBD5E1] font-medium">
-                Official parameters governing IDEAFORGE ' 26 at Abinantham Hall
+                Official parameters governing IDEAFORGE ' 26 at Abinandham Hall
               </p>
             </div>
           </div>
@@ -55,7 +55,7 @@ export const GuidelinesSection: React.FC = () => {
           <div className="bg-[#0C061A] p-4 sm:p-5 rounded-xl border-2 border-[#E2E8F0]/25 flex items-start gap-3">
             <Info className="w-5 h-5 text-[#A78BFA] shrink-0 mt-0.5" />
             <p className="font-body text-xs sm:text-sm text-[#E2E8F0] leading-relaxed font-medium">
-              <strong className="text-white">Notice:</strong> For the Ideathon, problem statements will be released live on the spot at 9:00 AM. For all remaining events (Prompt Engg, Business Pitch, Videography, Free Fire), exact event timings will be shared on the spot at Abinantham Hall without clashes. Merit certificates and cash prizes will be provided!
+              <strong className="text-white">Notice:</strong> For the Ideathon, problem statements will be released live on the spot at 9:00 AM. For all remaining events (Prompt Engg, Business Pitch, Videography, Free Fire), exact event timings will be shared on the spot at Abinandham Hall without clashes. Merit certificates and cash prizes will be provided!
             </p>
           </div>
         </div>

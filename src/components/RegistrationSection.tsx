@@ -120,7 +120,7 @@ export const RegistrationSection: React.FC = () => {
             <div className="p-3 rounded-xl bg-[#0C061A] border border-[#E2E8F0]/20 flex flex-col items-center justify-center text-center">
               <MapPin className="w-4 h-4 text-[#A78BFA] mb-1" />
               <span className="text-[#94A3B8] text-[10px]">VENUE</span>
-              <span className="font-bold text-white text-xs sm:text-sm">Abinantham Hall</span>
+              <span className="font-bold text-white text-xs sm:text-sm">Abinandham Hall</span>
             </div>
           </div>
 

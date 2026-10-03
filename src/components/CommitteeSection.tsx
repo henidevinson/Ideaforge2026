@@ -5,9 +5,9 @@ export const CommitteeSection: React.FC = () => {
   // Track 1: Institution Leaders (Scroll from Right to Left)
   const institutionLeaders = [
     {
-      title: 'CHAIRMAN, ADVISORY BOARD',
-      name: 'Sri A.M Kandaswami',
-      designation: 'Chairman, Advisory Board',
+      title: 'CHAIRMAN',
+      name: 'Shri A.M.Kandaswami',
+      designation: 'Chairman, Sasurie Group of Institutions',
       category: 'LEADERSHIP'
     },
     {
