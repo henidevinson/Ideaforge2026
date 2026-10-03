@@ -1,5 +1,5 @@
 import React from 'react';
-import { Clock, Calendar, MapPin, Sparkles, Trophy, Coffee, CheckCircle, Code2, Flame } from 'lucide-react';
+import { Clock, Calendar, MapPin, Sparkles, Coffee, CheckCircle, Code2, Flame, Award } from 'lucide-react';
 
 export const ScheduleSection: React.FC = () => {
   const milestones = [
@@ -20,10 +20,10 @@ export const ScheduleSection: React.FC = () => {
     },
     {
       time: '01:00 PM – 02:00 PM',
-      title: 'Mid-Evaluation & Complimentary Lunch',
-      desc: 'Jury members conduct preliminary progress review. Nutritious buffet lunch and refreshments served to all participants.',
+      title: 'Mid-Evaluation & Refreshments',
+      desc: 'Jury members conduct preliminary progress review. Refreshments will be provided to all participants.',
       icon: Coffee,
-      tag: 'REVIEW & LUNCH'
+      tag: 'REFRESHMENTS'
     },
     {
       time: '04:30 PM',
@@ -34,9 +34,9 @@ export const ScheduleSection: React.FC = () => {
     },
     {
       time: '05:00 PM – 06:00 PM',
-      title: 'Grand Valedictory & Prize Distribution',
-      desc: 'Announcement of winners, presentation of cash prizes, trophies, and official merit credentials by college dignitaries.',
-      icon: Trophy,
+      title: 'Grand Valedictory & Award Ceremony',
+      desc: 'Valedictory ceremony, announcement of outcomes, presentation of the Exclusive Cash Prize to Ideathon winners, and official certificates to all participants by college dignitaries.',
+      icon: Award,
       tag: 'VALEDICTORY',
       highlight: true
     }
@@ -139,8 +139,8 @@ export const ScheduleSection: React.FC = () => {
                   <span className="text-white font-black text-left min-[380px]:text-right">₹250 / Head (Common Fee)</span>
                 </div>
                 <div className="flex flex-col min-[380px]:flex-row min-[380px]:items-center justify-between gap-0.5 min-[380px]:gap-2">
-                  <span className="text-[#94A3B8]">Awards:</span>
-                  <span className="text-emerald-400 font-black text-left min-[380px]:text-right">Cash Prizes & Certificates</span>
+                  <span className="text-[#94A3B8]">Recognition & Awards:</span>
+                  <span className="text-emerald-400 font-black text-left min-[380px]:text-right">Ideathon Cash Prize · Certificates For All</span>
                 </div>
               </div>
             </div>

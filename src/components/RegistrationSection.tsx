@@ -13,7 +13,8 @@ import {
   ArrowRight,
   ShieldCheck,
   Quote,
-  Coffee
+  Coffee,
+  Award
 } from 'lucide-react';
 import { GOOGLE_FORM_URL } from '../config/constants';
 import { useRegistrationCountdown, DISPLAY_DEADLINE_DATE, DISPLAY_DEADLINE_TIME } from '../services/deadlineService';
@@ -90,6 +91,14 @@ export const RegistrationSection: React.FC = () => {
                 <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse" />
                 <span>₹250 / Head · Flat Common Fee</span>
               </div>
+              <div className="inline-flex items-center justify-center gap-1.5 bg-[#0C061A] border-2 border-[#A78BFA]/50 px-3 py-1.5 rounded-xl font-mono text-xs font-bold text-[#E2E8F0]">
+                <Award className="w-3.5 h-3.5 text-[#A78BFA]" />
+                <span>Certificates for all participants</span>
+              </div>
+              <div className="inline-flex items-center justify-center gap-1.5 bg-[#1F1002] border-2 border-amber-400/60 px-3 py-1.5 rounded-xl font-mono text-xs font-bold text-amber-300">
+                <Sparkles className="w-3.5 h-3.5 text-amber-400" />
+                <span>Ideathon: Exclusive Cash Prize</span>
+              </div>
               <div className="inline-flex items-center justify-center gap-1.5 bg-[#0C061A] border-2 border-emerald-400/50 px-3 py-1.5 rounded-xl font-mono text-xs font-bold text-emerald-300">
                 <Coffee className="w-3.5 h-3.5 text-emerald-400" />
                 <span>Refreshments will be provided</span>
@@ -148,7 +157,7 @@ export const RegistrationSection: React.FC = () => {
                 <span className="w-5 h-5 rounded-full bg-[#6C63FF] text-white flex items-center justify-center font-bold text-xs shrink-0 mt-0.5">
                   3
                 </span>
-                <span>Complete the registration payment (₹250/head) using the UPI ID inside the form and submit! <strong>Refreshments will be provided</strong> to all registered participants.</span>
+                <span>Complete the registration payment (₹250/head) using the UPI ID inside the form and submit! <strong>Exclusive Cash Prize for Ideathon winners</strong>, <strong>all participants will receive certificates</strong>, and <strong>refreshments will be provided</strong>.</span>
               </div>
             </div>
           </div>

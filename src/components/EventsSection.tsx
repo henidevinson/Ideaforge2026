@@ -6,7 +6,7 @@ import {
   Zap, 
   Clock, 
   Users, 
-  Trophy, 
+  IndianRupee, 
   ArrowRight, 
   Code2, 
   Gamepad2, 
@@ -127,13 +127,21 @@ export const EventsSection: React.FC<EventsSectionProps> = ({
                 <div>
                   {/* Category Badge & Icon */}
                   <div className="flex items-center justify-between gap-2 mb-3">
-                    <span className={`font-mono text-[9px] sm:text-[10px] font-black uppercase px-2 py-0.5 rounded border ${
-                      isTechnical
-                        ? 'bg-[#0C061A] text-[#A78BFA] border-[#A78BFA]/50'
-                        : 'bg-[#0C061A] text-[#E2E8F0] border-[#E2E8F0]/50'
-                    }`}>
-                      {evt.category}
-                    </span>
+                    <div className="flex items-center gap-1.5 flex-wrap">
+                      <span className={`font-mono text-[9px] sm:text-[10px] font-black uppercase px-2 py-0.5 rounded border ${
+                        isTechnical
+                          ? 'bg-[#0C061A] text-[#A78BFA] border-[#A78BFA]/50'
+                          : 'bg-[#0C061A] text-[#E2E8F0] border-[#E2E8F0]/50'
+                      }`}>
+                        {evt.category}
+                      </span>
+                      {evt.id === 'ideathon' && (
+                        <span className="font-mono text-[9px] font-black uppercase px-1.5 py-0.5 rounded bg-amber-950/70 border border-amber-400/80 text-amber-300 flex items-center gap-1">
+                          <Sparkles className="w-2.5 h-2.5 text-amber-400" />
+                          EXCLUSIVE CASH PRIZE
+                        </span>
+                      )}
+                    </div>
 
                     <div className="w-9 h-9 rounded-lg bg-[#0C061A] border-2 border-[#E2E8F0]/30 flex items-center justify-center text-white group-hover:scale-105 group-hover:border-[#E2E8F0] transition-all">
                       <Icon className="w-4 h-4 text-[#A78BFA] group-hover:text-white transition-colors" />
@@ -172,7 +180,7 @@ export const EventsSection: React.FC<EventsSectionProps> = ({
 
                     <div className="flex items-center justify-between">
                       <span className="text-[#E2E8F0] font-bold flex items-center gap-1.5">
-                        <Trophy className="w-3.5 h-3.5 text-[#A78BFA]" /> Fee:
+                        <IndianRupee className="w-3.5 h-3.5 text-[#A78BFA]" /> Fee:
                       </span>
                       <span className="font-extrabold text-white">
                         {getDisplayFee(evt)}
@@ -258,9 +266,13 @@ export const EventsSection: React.FC<EventsSectionProps> = ({
                         : '₹250 / Head (Combined Fee — covers all 4 other events)'}
                     </span>
                   </div>
-                  <div className="flex justify-between">
-                    <span className="text-[#E2E8F0] font-bold">Awards:</span>
-                    <span className="font-black text-white">Cash Prizes & Merit Certificates</span>
+                  <div className="flex justify-between items-center gap-2">
+                    <span className="text-[#E2E8F0] font-bold">Awards & Recognition:</span>
+                    <span className="font-black text-white text-right">
+                      {selectedEventModal.id === 'ideathon'
+                        ? 'Exclusive Cash Prize + Certificates For All'
+                        : 'Certificates for All Participants'}
+                    </span>
                   </div>
                 </div>
 

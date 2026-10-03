@@ -1,5 +1,5 @@
 import React from 'react';
-import { ArrowRight, Sparkles, Clock, IndianRupee, Layers, Quote, Calendar, ExternalLink, Coffee } from 'lucide-react';
+import { ArrowRight, Sparkles, Clock, IndianRupee, Layers, Quote, Calendar, ExternalLink, Coffee, Award } from 'lucide-react';
 import { RegistrationCountdown } from './RegistrationCountdown';
 import { GOOGLE_FORM_URL } from '../config/constants';
 
@@ -81,6 +81,16 @@ export const Hero: React.FC<HeroProps> = ({
             <Coffee className="w-3.5 h-3.5 sm:w-4 sm:h-4 text-emerald-400 shrink-0" />
             <span>Refreshments will be provided</span>
           </div>
+          {/* Certificates For All Participants Badge */}
+          <div className="flex items-center gap-1.5 sm:gap-2 bg-[#160B30] border-2 border-[#A78BFA]/70 px-3 py-1.5 sm:px-3.5 sm:py-1.5 rounded-lg shadow-brutal-sm text-white font-black">
+            <Award className="w-3.5 h-3.5 sm:w-4 sm:h-4 text-[#A78BFA] shrink-0" />
+            <span>Certificates for all participants</span>
+          </div>
+          {/* Exclusive Cash Prize for Ideathon Badge */}
+          <div className="flex items-center gap-1.5 sm:gap-2 bg-[#261502] border-2 border-amber-400/80 px-3 py-1.5 sm:px-3.5 sm:py-1.5 rounded-lg shadow-brutal-sm text-amber-300 font-black">
+            <Sparkles className="w-3.5 h-3.5 sm:w-4 sm:h-4 text-amber-400 shrink-0" />
+            <span>Ideathon: Exclusive Cash Prize</span>
+          </div>
         </div>
 
         {/* REGISTRATION DEADLINE LIVE COUNTDOWN */}
@@ -92,13 +102,14 @@ export const Hero: React.FC<HeroProps> = ({
         {/* Live Event Sprint Indicator Banner */}
         <div className="max-w-3xl mx-auto mb-4 sm:mb-8 p-3 sm:p-3.5 rounded-xl bg-[#160B30] border-2 border-[#E2E8F0]/30 flex flex-col min-[480px]:flex-row items-center justify-between gap-2.5 sm:gap-3 text-xs purple-glow-sm shadow-[0_0_20px_rgba(108,99,255,0.2)]">
           <div className="flex items-center gap-2 sm:gap-2.5 text-center min-[480px]:text-left">
-            <span className="w-2.5 h-2.5 rounded-full bg-[#A78BFA] animate-pulse shadow-[0_0_10px_#A78BFA] shrink-0" />
+            <span className="w-2.5 h-2.5 rounded-full bg-amber-400 animate-pulse shadow-[0_0_10px_#F59E0B] shrink-0" />
             <span className="font-heading text-xs sm:text-sm font-black uppercase tracking-wider text-white">
-              IDEATHON: <strong className="text-[#A78BFA]">8-HR SPRINT</strong> · OTHER EVENTS: <strong className="text-white">TIME ON THE SPOT</strong>
+              IDEATHON: <strong className="text-amber-300">EXCLUSIVE CASH PRIZE (8-HR SPRINT)</strong>
             </span>
           </div>
-          <div className="flex items-center gap-2 font-mono text-[11px] sm:text-xs font-black text-[#E2E8F0] shrink-0">
-            <span>CASH PRIZES & CERTIFICATES</span>
+          <div className="flex items-center gap-1.5 font-mono text-[11px] sm:text-xs font-black text-emerald-300 shrink-0">
+            <Award className="w-3.5 h-3.5 text-[#A78BFA] shrink-0" />
+            <span>CERTIFICATES FOR ALL PARTICIPANTS</span>
           </div>
         </div>
 

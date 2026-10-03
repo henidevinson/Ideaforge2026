@@ -46,7 +46,7 @@ export const AboutSection: React.FC = () => {
             </p>
 
             <p className="font-body text-xs sm:text-base text-[#CBD5E1] leading-relaxed font-normal">
-              Organized by the Department of Computer Science and Engineering, IDEAFORGE ' 26 features the 8-Hour Continuous Ideathon sprint across 8 specialized domains (problem statements on the spot), Prompt Engineering, Business Pitch, alongside high-energy Non-Technical showdowns in Videography (max 1–2 members) and E-Games (Free Fire). Merit certificates and exciting cash prizes will be provided!
+              Organized by the Department of Computer Science and Engineering, IDEAFORGE ' 26 features the 8-Hour Continuous Ideathon sprint across 8 specialized domains (problem statements on the spot) with an <strong>Exclusive Cash Prize for winners</strong>, alongside Prompt Engineering, Business Pitch, Videography (max 1–2 members) and E-Games (Free Fire). All participants will receive official certificates! Refreshments will be provided to all participants.
             </p>
 
             {/* Core highlights */}
@@ -54,9 +54,11 @@ export const AboutSection: React.FC = () => {
               {[
                 'Event Date: 14/10/2026 (Wednesday)',
                 'Ideathon: 8 Continuous Sprint Hours',
+                'Ideathon: Exclusive Cash Prize For Winners',
                 'Technical & Non-Technical Sections',
                 'Venue: Abinandham Hall, Campus Auditorium',
-                'Merit Certificates & Cash Prizes Provided'
+                'Certificates For All Participants',
+                'Refreshments Provided To All Participants'
               ].map((item, idx) => (
                 <div key={idx} className="flex items-center gap-2 sm:gap-3 font-heading text-xs sm:text-base font-bold uppercase text-white bg-[#160B30] border border-[#E2E8F0]/30 p-2 sm:p-3 rounded-lg sm:rounded-xl shadow-brutal-sm">
                   <CheckCircle2 className="w-4 h-4 sm:w-5 sm:h-5 text-[#A78BFA] shrink-0" />

@@ -1,5 +1,5 @@
 import React from 'react';
-import { MapPin, Layers, IndianRupee, Trophy } from 'lucide-react';
+import { MapPin, Layers, IndianRupee, Award } from 'lucide-react';
 
 export const EventStats: React.FC = () => {
   const cards = [
@@ -22,10 +22,10 @@ export const EventStats: React.FC = () => {
       description: 'Flat ₹250 per participant across all registrations'
     },
     {
-      icon: Trophy,
-      title: 'AWARDS',
-      subtitle: 'Prizes & Certificates',
-      description: 'Exciting cash prizes, trophies & official merit credentials'
+      icon: Award,
+      title: 'AWARDS & RECOGNITION',
+      subtitle: 'Ideathon Cash Prize',
+      description: 'Exclusive cash prize for Ideathon + certificates for all participants'
     }
   ];
 

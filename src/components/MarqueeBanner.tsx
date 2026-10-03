@@ -10,13 +10,14 @@ export const MarqueeBanner: React.FC = () => {
     { text: '“THE BEST WAY TO PREDICT THE FUTURE IS TO CREATE IT.”', icon: Quote },
     { text: 'DEPARTMENT OF CSE', icon: Terminal },
     { text: 'TECHNICAL & NON-TECHNICAL EVENTS', icon: Cpu },
-    { text: 'IDEATHON: 8-HOUR CONTINUOUS SPRINT (₹250/HEAD)', icon: Code },
+    { text: 'IDEATHON: 8-HOUR CONTINUOUS SPRINT (EXCLUSIVE CASH PRIZE)', icon: Code },
+    { text: 'IDEATHON: EXCLUSIVE CASH PRIZE FOR WINNERS', icon: Sparkles },
     { text: '8 SPECIALIZED DOMAINS · PROBLEMS ON THE SPOT', icon: Zap },
     { text: 'PROMPT ENGINEERING · BUSINESS PITCH', icon: Terminal },
     { text: 'VIDEOGRAPHY · E-GAMES (FREE FIRE)', icon: Shield },
     { text: 'ALL OTHER EVENTS COMBINED: ₹250 / HEAD (ACCESS ALL 4 EVENTS)', icon: Code },
     { text: 'REFRESHMENTS WILL BE PROVIDED TO ALL PARTICIPANTS', icon: Coffee },
-    { text: 'CASH PRIZES & MERIT CERTIFICATES', icon: Sparkles },
+    { text: 'ALL PARTICIPANTS WILL RECEIVE CERTIFICATES', icon: Sparkles },
   ];
 
   return (

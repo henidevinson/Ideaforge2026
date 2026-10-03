@@ -24,7 +24,7 @@ export const EVENT_DETAILS = {
     { name: 'H. Heni Devinson', role: 'Student Coordinator', designation: 'BE CSE', phone: '7708269340' },
     { name: 'M. Harish', role: 'Student Coordinator', designation: 'BE CSE', phone: '9894469878' }
   ],
-  prizesNotice: 'Merit Certificates & Cash Prizes will be awarded to top performers in every event!'
+  prizesNotice: 'Exclusive Cash Prize for Ideathon winners! Official certificates for all participants across all events.'
 };
 
 export const ALL_EVENTS: EventItem[] = [
@@ -41,13 +41,15 @@ export const ALL_EVENTS: EventItem[] = [
     teamSizeLabel: '1 to 4 Members',
     description: 'An intensive 8-hour continuous hack-sprint where teams design, build, and prototype solutions addressing real-world problems. Official problem statements will be revealed directly on the spot under your chosen domain track.',
     highlights: [
+      'Exclusive Cash Prize for winning teams',
       '8 continuous hours of focused development',
       '8 official engineering domains available',
       'Problem statements released on the spot at 9:00 AM',
-      'Cash prizes, trophies & official merit certificates'
+      'Official certificates for all participants'
     ],
     rules: [
       'Team size: 1 to 4 members.',
+      'Exclusive Cash Prize will be awarded to top Ideathon winners!',
       'Problem statements are officially given on the spot at 9:00 AM sharp.',
       'Challenge themes span 8 CSE domains; real-world problems revealed live on the spot.',
       'Working software prototypes, simulations, or POCs must be demonstrated to the jury.'
@@ -69,7 +71,7 @@ export const ALL_EVENTS: EventItem[] = [
       'Solo participant registration (combined fee ₹250 covers all 4 other events)',
       'Hands-on generative AI and LLM benchmarking',
       'Time schedule announced on the spot at Abinandham Hall',
-      'Cash prizes & certificates for top AI prompt architects'
+      'Official certificates for all participants'
     ],
     rules: [
       'Solo registration: Each participant registers individually.',
@@ -94,7 +96,7 @@ export const ALL_EVENTS: EventItem[] = [
       'Solo participant registration (combined fee ₹250 covers all 4 other events)',
       'Venture evaluation by academic and industry experts',
       'Time schedule announced on the spot at Abinandham Hall',
-      'Exciting cash prizes and certificates for winning pitches'
+      'Official certificates for all participants'
     ],
     rules: [
       'Solo registration: Each participant registers individually.',
@@ -121,7 +123,7 @@ export const ALL_EVENTS: EventItem[] = [
       'Solo participant registration (combined fee ₹250 covers all 4 other events)',
       'Campus theme / prompt announced on the spot',
       'Time schedule announced on the spot at Abinandham Hall',
-      'Cash prizes & certificates awarded to best visual creators'
+      'Official certificates for all participants'
     ],
     rules: [
       'Solo registration: Each participant registers individually.',
@@ -141,12 +143,12 @@ export const ALL_EVENTS: EventItem[] = [
     minMembers: 1,
     maxMembers: 1,
     teamSizeLabel: 'Solo Registration (Combined Fee: ₹250)',
-    description: 'Drop onto the virtual battleground for intense survival, rapid tactical firefights, and clutch combat in Garena Free Fire. Prove your supremacy and claim the championship trophy.',
+    description: 'Drop onto the virtual battleground for intense survival, rapid tactical firefights, and clutch combat in Garena Free Fire. Prove your supremacy and claim the championship victory.',
     highlights: [
       'Solo participant registration (combined fee ₹250 covers all 4 other events)',
       'Official custom tournament room lobbies',
       'Time schedule announced on the spot at Abinandham Hall',
-      'Cash prizes and certificates for top podium finishers'
+      'Official certificates for all participants'
     ],
     rules: [
       'Solo registration: Each participant registers individually.',
@@ -186,8 +188,8 @@ export const HOW_IT_WORKS_STEPS = [
   },
   {
     step: '06',
-    title: 'WIN CASH PRIZES & CERTIFICATES',
-    description: 'Compete for exciting cash prizes, prestigious trophies, and official merit credentials for all participants!'
+    title: 'EXCLUSIVE CASH PRIZE & CERTIFICATES',
+    description: 'Exclusive Cash Prize for Ideathon winners! Official certificates will be provided to all participants across both technical and non-technical events.'
   }
 ];
 
@@ -196,11 +198,12 @@ export const CONFIRMED_RULES = [
   'Official Venue: Abinandham Hall, Campus Auditorium.',
   'Registration Fee: Flat ₹250 per head across all events (Ideathon: ₹250/head · All other events combined: ₹250/head).',
   'Ideathon Sprint Track: Exclusive 8-hour continuous hack-sprint (9:00 AM – 5:00 PM). Teams of 1 to 4 members. Problem statements are given live on the spot across 8 domains.',
+  'Ideathon Exclusive Cash Prize: Exclusive cash prize will be awarded to top performing Ideathon teams.',
   'Ideathon Exclusivity: Participants registered for the Ideathon cannot participate in remaining events due to the intensive 8-hour continuous sprint.',
   'Other Events Solo Registration: Solo registration allows each participant to select any or all 4 other events (Prompt Engineering, Business Pitch, Videography, E-Games) for a single combined fee of ₹250 per head. Can register from any device.',
   'Multi-Event Participation: Since timings for remaining events are shared on the spot at Abinandham Hall without clashes, participants can easily compete in all selected events.',
   'Refreshments will be provided to all registered participants.',
-  'Certificates and existing cash prizes will be provided to participants and top winners in all events.'
+  'All participants will receive official certificates.'
 ];
 
 export const ANNOUNCEMENT_PENDING_ITEMS = [
@@ -211,6 +214,10 @@ export const ANNOUNCEMENT_PENDING_ITEMS = [
   {
     label: 'Registration Fee',
     status: '₹250 / Head (Flat Common Fee)'
+  },
+  {
+    label: 'Ideathon Prize',
+    status: 'Exclusive Cash Prize'
   },
   {
     label: 'Ideathon Time',
@@ -225,8 +232,8 @@ export const ANNOUNCEMENT_PENDING_ITEMS = [
     status: 'Provided To All Participants'
   },
   {
-    label: 'Prizes & Rewards',
-    status: 'Certificates & Cash Prizes'
+    label: 'Recognition',
+    status: 'Certificates For All Participants'
   }
 ];
 
@@ -264,8 +271,12 @@ export const FAQS: FaqItem[] = [
     answer: 'Official challenge problem statements will be revealed directly on the spot at 9:00 AM on event day! Teams will tackle challenges during the continuous 8-hour sprint.'
   },
   {
-    question: 'What are the prizes and awards?',
-    answer: 'Certificates will be provided to all verified participants, and exciting cash prizes along with championship trophies will be awarded to the top winners!'
+    question: 'Is there a cash prize for the Ideathon?',
+    answer: 'Yes! An Exclusive Cash Prize is awarded to the winning teams of the 8-Hour Ideathon. In addition, all participants across both technical and non-technical events will receive official certificates!'
+  },
+  {
+    question: 'Will all participants receive certificates?',
+    answer: 'Yes! All participants will receive official certificates from the Department of Computer Science and Engineering.'
   },
   {
     question: 'Who are the coordinators and help desk contacts?',
